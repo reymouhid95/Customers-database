@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+.App {
+  text-align: center;
+  color: bisque;
+}
+
+.soumission {
+  border: none !important;
+  background-color: rgb(18, 143, 189) !important;
+  color: bisque !important;
+}
+
+.soumission:hover {
+  background-color: bisque !important;
+  color: rgb(3, 43, 58) !important;
+  transition: 2s !important;
+}
+
+.filter {
+  width: 200px !important;
+}
+
+.btn {
+  transition: 2s !important;
+}
+
+.bg-dark {
+  background-image: linear-gradient(
+    to right,
+    rgb(6, 71, 71),
+    rgba(6, 48, 71, 0.81)
+  ) !important;
+}
